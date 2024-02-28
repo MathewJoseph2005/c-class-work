@@ -1,3 +1,4 @@
+// .C Program To Find Simple Interest
 #include <stdio.h>
 int get_value(char *str){
     int num;
