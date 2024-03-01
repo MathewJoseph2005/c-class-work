@@ -19,12 +19,12 @@ int main(){
         double root1 = (-b + sqrt(des)) / (2 * a);
         double root2 =  (-b - sqrt(des)) / (2 * a);
         printf("%lf is the first root and %lf is the second root",root1,root2);
-    }else if(des=0){
+    }else if(des==0){
         double root =  (-b - sqrt(des)) / (2 * a);
     }else{
-        int  realPart = -b / (2 * a);
-        int imagPart = sqrt(-des) / (2 * a);
-        printf("root1 = %d+%di and root2 = %d-%di", realPart, imagPart, realPart, imagPart);
+        double  realPart = -b / (2 * a);
+        double imagPart = sqrt(-des) / (2 * a);
+        printf("root1 = %lf+%lfi and root2 = %lf-%lfi", realPart, imagPart, realPart, imagPart);
     }
     return 0;
 }
