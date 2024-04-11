@@ -24,8 +24,5 @@ int main() {
   concatenated[j] = '\0';
 
   printf("Concatenated string:%s", concatenated);
-  int size = sizeof(concatenated)/sizeof(concatenated[0]);
-  printf("%d",size);
-
   return 0;
 }
